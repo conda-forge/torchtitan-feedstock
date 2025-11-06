@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - blobfile
-    - datasets >=2.21.0
+    - datasets >=3.6.0
     - einops
     - fsspec
     - pillow
@@ -34,6 +34,7 @@ requirements:
     - tokenizers >=0.15.0
     - torchdata >=0.8.0
     - transformers
+    - triton
     - tyro
     - tabulate
     - wandb
