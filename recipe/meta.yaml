@@ -27,6 +27,7 @@ requirements:
     - fsspec
     - pillow
     - python >={{ python_min }}
+    - pytorch >=2.3.1
     - sentencepiece
     - tensorboard
     - tiktoken
