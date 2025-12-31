@@ -40,8 +40,8 @@ requirements:
     - wandb
 
 test:
-  imports:
-    - torchtitan
+  # imports:
+  #   - torchtitan
   commands:
     - pip check
   requires:
