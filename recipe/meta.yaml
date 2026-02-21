@@ -1,5 +1,5 @@
 {% set name = "torchtitan" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/torchtitan-{{ version }}.tar.gz
-  sha256: 0b288bd9eb3d775f20ba00d9d71449023c8b224e356fa46744b94aa863217ca8
+  sha256: f96babf03ce954dbd9078dab04eed61874c9144e23152bebca7be508de9eefd4
 
 build:
   noarch: python
