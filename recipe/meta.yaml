@@ -29,6 +29,7 @@ requirements:
     - python >={{ python_min }}
     - pytorch >=2.3.1
     - sentencepiece
+    - spmd-types
     - tensorboard
     - tiktoken
     - tomli >=1.1.0
