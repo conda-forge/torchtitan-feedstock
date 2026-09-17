@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - blobfile
-    - datasets >=3.6.0
+    - datasets <4.8.0,>=3.6.0
     - einops
     - fsspec
     - pillow
